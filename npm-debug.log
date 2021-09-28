@@ -1,0 +1,41 @@
+2021-09-28T11:48:48.210844+00:00 app[web.1]:     at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:327:20)
+2021-09-28T11:48:48.210844+00:00 app[web.1]:     at Object.<anonymous> (/app/app.js:17:10)
+2021-09-28T11:48:48.210845+00:00 app[web.1]:     at Module._compile (internal/modules/cjs/loader.js:1085:14)
+2021-09-28T11:48:48.210845+00:00 app[web.1]:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+2021-09-28T11:48:48.210846+00:00 app[web.1]: (Use `node --trace-warnings ...` to show where the warning was created)
+2021-09-28T11:48:48.210916+00:00 app[web.1]: (node:22) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+2021-09-28T11:48:48.210947+00:00 app[web.1]: (node:22) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2021-09-28T11:49:12.386901+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=keshu-elearn-website.herokuapp.com request_id=fdd4450b-8973-4b65-84b3-db26c8c767f6 fwd="180.188.224.28" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2021-09-28T11:49:12.389670+00:00 app[web.1]: [0mGET / [0m- [0m- ms - -[0m
+2021-09-28T11:52:58.000000+00:00 app[api]: Build started by user dilwarinstasoftservices@gmail.com
+2021-09-28T11:53:24.233639+00:00 heroku[web.1]: Restarting
+2021-09-28T11:53:24.249371+00:00 heroku[web.1]: State changed from up to starting
+2021-09-28T11:53:25.055357+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2021-09-28T11:53:26.919179+00:00 heroku[web.1]: Starting process with command `npm start`
+2021-09-28T11:53:28.083527+00:00 app[web.1]: 
+2021-09-28T11:53:28.083556+00:00 app[web.1]: > elearn@0.0.0 start /app
+2021-09-28T11:53:28.083556+00:00 app[web.1]: > node ./bin/www
+2021-09-28T11:53:28.083556+00:00 app[web.1]: 
+2021-09-28T11:53:28.842120+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2021-09-28T11:53:28.842173+00:00 app[web.1]: designed for a production environment, as it will leak
+2021-09-28T11:53:28.842173+00:00 app[web.1]: memory, and will not scale past a single process.
+2021-09-28T11:53:28.847368+00:00 app[web.1]: server as running:57529
+2021-09-28T11:53:29.287185+00:00 heroku[web.1]: State changed from starting to up
+2021-09-28T11:53:25.217281+00:00 heroku[web.1]: Process exited with status 143
+2021-09-28T11:53:23.935710+00:00 app[api]: Release v8 created by user dilwarinstasoftservices@gmail.com
+2021-09-28T11:53:25.000000+00:00 app[api]: Build succeeded
+2021-09-28T11:53:58.789244+00:00 app[web.1]: (node:22) UnhandledPromiseRejectionWarning: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+2021-09-28T11:53:58.789277+00:00 app[web.1]:     at NativeConnection.Connection.openUri (/app/node_modules/mongoose/lib/connection.js:796:32)
+2021-09-28T11:53:58.789279+00:00 app[web.1]:     at /app/node_modules/mongoose/lib/index.js:328:10
+2021-09-28T11:53:58.789280+00:00 app[web.1]:     at /app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+2021-09-28T11:53:58.789280+00:00 app[web.1]:     at new Promise (<anonymous>)
+2021-09-28T11:53:58.789281+00:00 app[web.1]:     at promiseOrCallback (/app/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+2021-09-28T11:53:58.789282+00:00 app[web.1]:     at Mongoose._promiseOrCallback (/app/node_modules/mongoose/lib/index.js:1149:10)
+2021-09-28T11:53:58.789282+00:00 app[web.1]:     at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:327:20)
+2021-09-28T11:53:58.789282+00:00 app[web.1]:     at Object.<anonymous> (/app/app.js:17:10)
+2021-09-28T11:53:58.789283+00:00 app[web.1]:     at Module._compile (internal/modules/cjs/loader.js:1085:14)
+2021-09-28T11:53:58.789283+00:00 app[web.1]:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+2021-09-28T11:53:58.789283+00:00 app[web.1]: (Use `node --trace-warnings ...` to show where the warning was created)
+2021-09-28T11:53:58.789340+00:00 app[web.1]: (node:22) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+2021-09-28T11:53:58.789388+00:00 app[web.1]: (node:22) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2021-09-28T11:53:23.935710+00:00 app[api]: Deploy 9698e87e by user dilwarinstasoftservices@gmail.com
