@@ -6,10 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www",
     "server-install": "npm install",
-    "heroku-postbuild": "npm install && npm start"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.5",
+    "async": "^3.2.1",
     "bcryptjs": "*",
     "body-parser": "~1.13.2",
     "connect-flash": "*",
